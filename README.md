@@ -1,6 +1,8 @@
 Floating Action
 =======
 
+[![Code Climate](https://codeclimate.com/github/brunoporto/floating_action/badges/gpa.svg)](https://codeclimate.com/github/brunoporto/floating_action)
+
 Essa GEM fornece acesso ao plugin jQuery para colocar ações como barra flutuante anexa a um container
 
 # Requisitos
@@ -8,6 +10,11 @@ Essa GEM fornece acesso ao plugin jQuery para colocar ações como barra flutuan
 - jQuery 1.2+
 
 # Instalação
+
+Adicione essa linha no Gemfile do projeto:
+```ruby
+gem 'floating_action'
+```
 
 Adicione a seguinte linha no seu arquivo `application.css`:
 ```css
