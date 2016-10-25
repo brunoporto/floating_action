@@ -1,0 +1,17 @@
+PATH
+  remote: .
+  specs:
+    floating_action (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  floating_action!
+
+BUNDLED WITH
+   1.12.5

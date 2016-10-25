@@ -1,0 +1,32 @@
+@media (min-width: 992px) {
+
+    .floating-action-container .floating-action-content {
+        display: none !important;
+    }
+
+    .floating-action-container:hover .floating-action-content {
+        display: inline !important;
+        z-index: 99999;
+        position: absolute;
+        padding: 10px;
+        border: none;
+
+        -webkit-border-bottom-right-radius: 6px;
+        -webkit-border-bottom-left-radius: 6px;
+        -moz-border-radius-bottomright: 6px;
+        -moz-border-radius-bottomleft: 6px;
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+
+    .floating-container-style {
+        background-color: #EEEEEE;
+    }
+    .floating-content-style {
+        background-color: #E0E0E0;
+    }
+    .floating-content-style > a {
+        text-decoration: none;
+    }
+
+}
